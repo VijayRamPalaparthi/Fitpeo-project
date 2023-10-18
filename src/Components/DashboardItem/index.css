@@ -1,0 +1,24 @@
+.tabs-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+   }
+   .tab-heading{
+     color: #8d91b0;
+     font-family: monospace;
+     font-size: 15px;
+     font-weight: bold;
+     margin-left:10px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+   }
+   .tab{
+     display: flex;
+     align-items: center;
+   }
+   @media(max-width:426px){
+    .tab-heading{
+      font-size: 10px;
+    }
+  }

@@ -1,0 +1,80 @@
+.list-card-container{
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    width: 220px;
+}
+.icon-container{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.each-detail-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.type{
+    color:#dadada ;
+    font-family: monospace;
+    font-size: 10px;
+    margin: 0px;
+    font-weight: bold;
+}
+.amount{
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
+    margin: 0px;
+}
+.range{
+    color: #525459;
+    font-family: monospace;
+    font-size: 10px;
+    margin: 0px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.safe{
+color: #42c07a;
+font-family: monospace;
+font-size: 10px;
+margin: 0px;
+font-weight: bold;
+}
+.dangerous{
+color: #d52260;
+font-family: monospace;
+font-size: 10px;
+margin: 0px;
+font-weight: bold;
+}
+.no-1{
+    background-color: #dcfeeb;
+}
+.no-2{
+    background-color: #e7daff;
+}
+.no-3{
+    background-color: #cbf1fe;
+}
+.no-4{
+    background-color: #ffceee;
+}
+
+@media all and (max-width: 425px) {
+    .icon-container{
+        width: 60px;
+        height: 60px;
+    }.amount{
+        font-size: 10px;
+    }
+}

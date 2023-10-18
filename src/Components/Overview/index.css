@@ -1,0 +1,31 @@
+.range-list-container{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-left: 15px;
+}
+.list-range{
+    width: 40px;
+    border-radius: 7px;
+}
+.month{
+    font-size: 12px;
+    font-family: monospace;
+    color: #909090;   
+}
+.active-color{
+    background-color: #f2efff;
+}
+.non-active{
+    background-color: #5a32ea;
+}
+
+@media all and (max-width: 426px) {
+    .list-range{
+        width: 10px;
+    }.range-list-container{
+        margin-left: 3px;
+    }.month{
+        font-size: 8px;
+    }
+}

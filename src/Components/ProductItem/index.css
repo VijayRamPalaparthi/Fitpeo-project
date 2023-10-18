@@ -1,0 +1,77 @@
+.p-details-container{
+    display: flex;
+    margin-top: 10px;
+}
+.p-name-container{
+    display: flex;
+    width: 85%;
+    align-items: center;
+}
+.pr-image{
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+}
+.name-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+.p-about{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px;
+    color: #191919;
+}
+.p-desc{
+    font-family: "georgia";
+    font-weight: bold;
+    font-size: 10px;
+    color: #a8abc3;
+    margin: 5px;
+}
+.p-stock{
+    color: #515151;
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: 700;
+    width: 12%
+}
+.p-price{
+    color: #191919;
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: bold;
+    width: 12%
+}
+.p-sales{
+    color: #515151;
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: 700;
+    width: 12%
+}
+@media(max-width:486px){
+    .pr-image{
+        width: 30px;
+        height: 20px;
+    }.p-about{
+        font-size: 10px;
+        margin: 2px;
+    }.p-sales{
+        font-size: 10px;
+        width: 20%;
+    }.p-price{
+        font-size: 10px;
+        width: 20%;
+    }.p-stock{
+        font-size: 10px;
+        width: 20%;
+    }.p-desc{
+        font-size: 7px;
+        margin: 2px;
+    }
+
+}
